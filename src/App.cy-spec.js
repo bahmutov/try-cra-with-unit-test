@@ -3,7 +3,6 @@
 // Module Error (from ./node_modules/eslint-loader/dist/cjs.js):
 // Line 8:5:  'cy' is not defined  no-undef
 // probably need to clean up webpack options more
-/* global cy */
 
 // compare to App.test.js
 import React from 'react'

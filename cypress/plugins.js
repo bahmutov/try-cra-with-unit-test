@@ -25,9 +25,30 @@ const webpackOptions = webpackFactory('development')
 // delete webpackOptions.output
 // delete webpackOptions.node
 delete webpackOptions.optimization
+delete webpackOptions.plugins
 
-// console.log('cleaned up')
-// console.log(webpackOptions)
+console.log('cleaned up')
+// console.log(JSON.stringify(webpackOptions, null, 2))
+// eslint-loader
+// console.log(webpackOptions.module.rules)
+if (webpackOptions.module && Array.isArray(webpackOptions.module.rules)) {
+  const modulePre = webpackOptions.module.rules.find(rule => rule.enforce === 'pre')
+  if (modulePre && Array.isArray(modulePre.use)) {
+    const useEslintLoader = modulePre.use.find(use => use.loader && use.loader.includes('eslint-loader'))
+    if (useEslintLoader) {
+      console.log('found useEslintLoader')
+      console.log(useEslintLoader)
+      if (useEslintLoader.options) {
+        if (Array.isArray(useEslintLoader.options.globals)) {
+          useEslintLoader.options.globals.push('cy')
+        } else {
+          useEslintLoader.options.globals = ['cy']
+        }
+      }
+    }
+  }
+  // webpackOptions.module.rules[1].use[0].options.globals = ['cy']
+}
 
 module.exports = (on) => {
 

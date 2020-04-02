@@ -33,9 +33,8 @@
     ]
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "4.1.3",
     "cypress": "4.3.0",
-    "cypress-react-unit-test": "2.7.0",
+    "cypress-react-unit-test": "2.8.0-use-bundler-from-cra.2",
     "find-yarn-workspace-root": "1.2.1"
   }
 }
