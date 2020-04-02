@@ -3577,10 +3577,10 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-react-unit-test@2.8.0-use-bundler-from-cra.2:
-  version "2.8.0-use-bundler-from-cra.2"
-  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-2.8.0-use-bundler-from-cra.2.tgz#32c75fb039b5e32a950c4a48495b544f248a52c5"
-  integrity sha512-4CVmCcYZufFZzkAfkGpnRMMgtkCTKo5Nml5+Nog94M4eq65ZW6gdWZeDmm95MojqfSSbF4azaeEMeC5ZABApbQ==
+cypress-react-unit-test@2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-2.8.0.tgz#77d3bfcd4a0ac9dd8835a1648212f5699f03c83d"
+  integrity sha512-Y+GGo6kiZMqCEI2lwUulzXUctJUQx7KCJcuxo7WtOEPohl8+sMFAPO+GeSOm3j542rk5l1c/mIQmZ85oPRDlRA==
   dependencies:
     "@cypress/webpack-preprocessor" "4.1.3"
     debug "4.1.1"

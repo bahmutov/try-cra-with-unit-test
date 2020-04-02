@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "cypress": "4.3.0",
-    "cypress-react-unit-test": "2.8.0-use-bundler-from-cra.2"
+    "cypress-react-unit-test": "2.8.0"
   }
 }
