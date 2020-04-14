@@ -1,5 +1,7 @@
 import React from 'react';
+// this SVG will generate an external URL 😢
 import logo from './logo.svg';
+// this CSS will be inlined ✅
 import './App.css';
 
 function App() {
