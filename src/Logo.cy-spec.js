@@ -7,5 +7,6 @@ import { ReactComponent as Logo} from './logo.svg'
 describe('Logo', () => {
   it('imports SVG', () => {
     mount(<Logo />)
+    cy.get('path').should('have.attr', 'd')
   })
 })
