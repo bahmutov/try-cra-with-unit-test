@@ -4365,6 +4365,13 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
+dependency-version-badge@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/dependency-version-badge/-/dependency-version-badge-1.1.0.tgz#d8100ac3f8cb7df1bc0086beb36c73f9b2a29201"
+  integrity sha512-6VaXCPir3EaZdwzuf0YsThTlwHjzZfPsunW8N+OO97G+lnPgOkDn4wrR7tgKpRZhlQpAOfWYcb/e647pHRbvUQ==
+  dependencies:
+    debug "4.1.1"
+
 deps-sort@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/deps-sort/-/deps-sort-2.0.1.tgz#9dfdc876d2bcec3386b6829ac52162cda9fa208d"
