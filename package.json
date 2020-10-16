@@ -16,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
-    "dev": "DEBUG=instrument-cra react-scripts -r @cypress/instrument-cra start"
+    "dev": "DEBUG=instrument-cra react-scripts -r @cypress/instrument-cra start",
+    "update:badges": "update-badge cypress cypress-react-unit-test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,7 +37,8 @@
   "devDependencies": {
     "@cypress/instrument-cra": "1.1.1",
     "cypress": "4.5.0",
-    "cypress-react-unit-test": "4.1.7",
-    "dependency-version-badge": "1.1.0"
+    "cypress-expect": "2.1.2",
+    "cypress-react-unit-test": "4.16.0",
+    "dependency-version-badge": "1.7.0"
   }
 }
