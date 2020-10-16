@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress-expect run --passing 2",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "dev": "DEBUG=instrument-cra react-scripts -r @cypress/instrument-cra start",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@cypress/instrument-cra": "1.1.1",
-    "cypress": "4.5.0",
+    "cypress": "5.4.0",
     "cypress-expect": "2.1.2",
     "cypress-react-unit-test": "4.16.0",
     "dependency-version-badge": "1.7.0"
