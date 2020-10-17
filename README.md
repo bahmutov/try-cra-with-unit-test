@@ -1,6 +1,6 @@
 # try-cra-with-unit-test
 
-![cypress-react-unit-test version](https://img.shields.io/badge/cypress--react--unit--test-4.16.1-brightgreen) ![cypress version](https://img.shields.io/badge/cypress-5.4.0-brightgreen)
+![cypress-react-unit-test version](https://img.shields.io/badge/cypress--react--unit--test-4.16.2-brightgreen) ![cypress version](https://img.shields.io/badge/cypress-5.4.0-brightgreen)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and can be tested using [Cypress](https://www.cypress.io) and [cypress-react-unit-test](https://github.com/bahmutov/cypress-react-unit-test)
 
